@@ -1,6 +1,6 @@
 // commit 114cf5304a74ff8f7c9ff1d21cf5652298af04b0
 // File generated at :: Wed Jul 18 2012 14:44:33 GMT-0700 (PDT)
-
+alert(1);
 /*
  Licensed to the Apache Software Foundation (ASF) under one
  or more contributor license agreements.  See the NOTICE file
