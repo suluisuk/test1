@@ -27,7 +27,7 @@ function onPause(){
 }
 
 function onResume(){
-	//폰갭이 백그라운드에서 올아올때 실행
+	//폰갭이 백그라운드에서 돌아올때 실행
 }
 
 function onOnline(){
