@@ -40,17 +40,14 @@ function onOffline(){
 
 function onBackKeyDown(){
 	//안드로이드 이전 버튼 눌렀을때 실행
-	alert('뒤로가기 버튼 누름');
 }
 
 function onMenuKeyDown(){
 	//안드로이드 메뉴 버튼 눌렀을때 실행
-	alert('메뉴 버튼 누름');
 }
 
 function onSearchkKeyDown(){
 	//안드로이드 검색 버튼 눌렀을때 실행
-	alert('검색 버튼 누름');
 }
 
 // 네트워트 연결 체크
@@ -65,13 +62,10 @@ function checkConnection(){
 	states[Connection.CELL_3G] = 'CELL 3G 연결';
 	states[Connection.CELL_4G] = 'CELL 4G 연결';
 	states[Connection.NONE] = '연결된 네트워크 없음';
-	
-	alert('연결타입:' + states[networkState]);
 }
 
 // 디바이스 정보 반환
 function getDeviceInfo(){
-	alert('디바이스 타입:' + device.platform);
 	//Android
 	return device.platform;
 }

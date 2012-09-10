@@ -2,6 +2,7 @@
 <html>
     <head>
     	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    	<meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
         <title>PhoneGap</title>
         <link rel="stylesheet" href="common/css/jquery.mobile-1.0a3.min.css" />
         <link rel="stylesheet" href="common/css/index.css" />
@@ -17,18 +18,36 @@
 		</script>
     </head>
     <body>
-		<div data-role="page" id="home">
-			<div data-role="content" id="login_main_title">
+		<div data-role="page" id="login_page">
+			<div data-role="content" class="login_main_title">
 				로그인 페이지<br>
-				내가 만든다.<br>
-				잘되는거 같다.<br>				
+				ID : <input type="search" name="input_id" id="input_id">
+				PassWord : <input type="search" name="input_pw" id="input_pw">
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#" data-role="button">로그인</a>
+					<a href="#" data-role="button">회원가입</a>
+				</div>
 			</div>
- 			<div data-role="content" id="login_main_body">
-  				<p>Content goes here</p>
+ 			<div data-role="content" class="login_main_body">
+  				<p><a href="#login_ok_page" data-transition="slide">Content goes here</a></p>
  			</div>
- 			<div data-role="content" id="login_main_footer">
+ 			<div data-role="content" class="login_main_footer">
   				Copyright ⓒ 2012. hunter38317 , Ltd All rights reserved
  			</div>
 		</div>
+		
+		<div data-role="page" id="login_ok_page">
+			<div data-role="content" class="login_main_title">
+				로그인 성공<br>
+				했습니다.<br>				
+			</div>
+ 			<div data-role="content" class="login_main_body">
+  				<p>Content goes here</p>
+ 			</div>
+ 			<div data-role="content" class="login_main_footer">
+  				Copyright ⓒ 2012. hunter38317 , Ltd All rights reserved
+ 			</div>
+		</div>
+		
     </body>
 </html>

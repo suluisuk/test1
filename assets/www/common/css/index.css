@@ -1,4 +1,4 @@
 body {color:#666;margin:0;border:0px;}
-#login_main_title {background:#FFFFFF;color:#DDA0DD;font-size:1.6em;text-align:center;}
-#login_main_body {background:#FFFFFF;color:#DDA0DD;font-size:1.6em;text-align:center;}
-#login_main_footer {background:#FFFFFF;color:#DDA0DD;font-size:0.7em;text-align:center;padding:5px 0px 5px 0px;}
+.login_main_title {background:#FFFFFF;color:#DDA0DD;font-size:1.6em;text-align:center;}
+.login_main_body {background:#FFFFFF;color:#DDA0DD;font-size:1.6em;text-align:center;}
+.login_main_footer {background:#FFFFFF;color:#DDA0DD;font-size:0.7em;text-align:center;padding:5px 0px 5px 0px;}
